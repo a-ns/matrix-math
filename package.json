@@ -1,0 +1,32 @@
+{
+  "name": "matrix-math",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-ns/matrix-math.git"
+  },
+  "keywords": [
+    "linear",
+    "algebra",
+    "matrix",
+    "math"
+  ],
+  "author": "Alex Lindemann <exmann94@gmail.com> (http://github.com/a-ns)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-ns/matrix-math/issues"
+  },
+  "homepage": "https://github.com/a-ns/matrix-math#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  }
+}
