@@ -20,7 +20,7 @@ export class Matrix {
   get columns() {
     return this._cols;
   }
-  private loop(cb: Function) {
+  private loop(cb: (i: number, j: number) => void) {
     for (let i = 0; i < this.rows; i++)
       for (let j = 0; j < this.columns; j++) cb(i, j);
   }
